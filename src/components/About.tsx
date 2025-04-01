@@ -19,13 +19,13 @@ export function About() {
           <div className="mb-16 relative max-w-2xl mx-auto">
               <div className="w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-blue-600 dark:border-blue-400" style={{width: "265px",height: "265px"}}>
                 <img
-                  src="../../photoMe.jpg"
+                  src="../../public/photoMe.jpg"
                   alt="Mahmoud Sayed"
                   className="w-full h-full object-cover"
                 />
               </div>
               <a
-            href="../../mahmoudSayedCV.pdf"
+            href="../../public/mahmoudSayedCV.pdf"
             download
             className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors shadow-lg"
           >

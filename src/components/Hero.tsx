@@ -29,8 +29,8 @@ export function Hero() {
           </a>
         </div>
         <a
-          href="../../mahmoudSayedCV.pdf"
-          download
+            href="../../public/mahmoudSayedCV.pdf"
+            download
           className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition-colors"
         >
           <FileText className="w-5 h-5" />
